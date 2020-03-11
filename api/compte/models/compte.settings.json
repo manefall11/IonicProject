@@ -1,0 +1,18 @@
+{
+  "info": {
+    "name": "Compte"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "username": {
+      "type": "string",
+      "private": true,
+      "required": true
+    }
+  },
+  "connection": "default",
+  "collectionName": "comptes"
+}
